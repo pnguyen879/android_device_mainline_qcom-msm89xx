@@ -52,3 +52,9 @@ For Linux kernel v6.1:
 ## Notes for `mi8998` target
 
 - Display and Graphics does not work properly for now. Use `scrcpy` tool to interact.
+
+## Notes for `gt58` target
+
+- The target may boot only on Galaxy Tab A 8.0 (`gt58`) as of now.
+- The target uses lk2nd in the boot partition.
+- The target uses a custom boot partition (`hidden`).
