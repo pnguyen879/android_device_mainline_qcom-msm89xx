@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_DEVICE_PATH := device/xiaomi/mi89xx-mainline/mi8998
+TARGET_DEVICE_PATH := device/mainline/msm89xx-mainline/mi8998
 
 # Inherit options from mainline/qcom-common
 TARGET_QCOM_SOC := msm8998
@@ -15,7 +15,7 @@ TARGET_USES_FRAMEBUFFER_DISPLAY := true
 include device/mainline/qcom-common/optional/options.mk
 
 # Inherit from parent
-$(call inherit-product, device/xiaomi/mi89xx-mainline/device.mk)
+$(call inherit-product, device/mainline/msm89xx-mainline/device.mk)
 
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi

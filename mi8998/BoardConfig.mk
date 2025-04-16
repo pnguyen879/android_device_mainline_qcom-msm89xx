@@ -4,7 +4,7 @@
 #
 
 # Inherit from parent
-include device/xiaomi/mi89xx-mainline/BoardConfig.mk
+include device/mainline/msm89xx-mainline/BoardConfig.mk
 
 # A/B
 AB_OTA_UPDATER := false
