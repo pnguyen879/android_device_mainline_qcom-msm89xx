@@ -6,7 +6,7 @@
 |----------------------------------------|----------------------------------|-------------------------------------------|------------------------|
 | mi8916                                 | kernel/mainline/msm8916-mainline | https://github.com/msm8916-mainline/linux | wip/msm8916/6.19       |
 | mi8953_a                               | kernel/mainline/msm8953-mainline | https://github.com/msm8953-mainline/linux | barni2000/6.19/develop |
-| mi8998                                 | kernel/mainline/msm8998-mainline | https://github.com/msm8998-mainline/linux | qcom-msm8998-6.1.y     |
+| mi8998, op8998                         | kernel/mainline/msm8998-mainline | https://github.com/msm8998-mainline/linux | qcom-msm8998-6.1.y     |
 | mi439_mainline, mi89x7, tiare_mainline | kernel/mainline/msm89x7-mainline | https://github.com/msm89x7-mainline/linux | msm89x7/6.19-develop   |
 
 ## Kernel edits
@@ -58,3 +58,7 @@ For Linux kernel v6.1:
 - The target may boot only on Galaxy Tab A 8.0 (`gt58`) as of now.
 - The target uses lk2nd in the boot partition.
 - The target uses a custom boot partition (`hidden`).
+
+## Notes for `op8998` target
+
+- Display and Graphics does not work properly for now. Use `scrcpy` tool to interact.

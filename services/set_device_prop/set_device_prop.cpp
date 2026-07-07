@@ -48,6 +48,10 @@ const std::unordered_map<std::string, device_info_t> kDeviceInfoMap = {
     {"olive", {320}},
     {"pine", {320}},
 
+    // OnePlus MSM8998
+    {"cheeseburger", {400}},
+    {"dumpling", {401}},
+
     // Xiaomi MSM8953
     {"daisy", {420}},
     {"oxygen", {342}},
